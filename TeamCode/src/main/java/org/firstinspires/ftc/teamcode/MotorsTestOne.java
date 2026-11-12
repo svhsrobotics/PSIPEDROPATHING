@@ -25,7 +25,7 @@ private Gamepad gamepad = gamepad1;
             {
 
                 double y = -gamepad1.left_stick_y;
-                double x = gamepad1.left_stick_x * 1.1;
+                double x = gamepad1.left_stick_x * 1;
                 double rx = gamepad1.right_stick_x;
                 denominator = Math.max(Math.abs(y)+Math.abs(x)+Math.abs(rx),1);
                 //
